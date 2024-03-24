@@ -1,0 +1,60 @@
+.header {
+  font-family: "Fira Code", monospace;
+  height: 12.5%;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
+  color: #fff;
+  display: grid;
+  grid-template-areas: "logo nav";
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+  border-bottom: 1px solid #b8c6db;
+  align-content: center;
+}
+
+.header__text:first-child{
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header__text{
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header__text:first-child .header_text__title{
+  color:#fff;
+}
+.header__text:nth-child(2) .header_text__title{
+  color: var(--purple);
+}
+.header__text:nth-child(2) .header_text__title .dot_header{
+  color: #000;
+}
+
+
+.header__menuIcon {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+}
+
+.header_text__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+.header__text a{
+  text-decoration: none; /* This removes the underline */
+}
+
+.dot_header{
+  color: var(--purple);
+}
