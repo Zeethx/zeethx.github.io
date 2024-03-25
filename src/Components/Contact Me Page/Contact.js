@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <div data-aos="fade-right" className="contact__body">
-        <h2 className="contact__heading">Contact Me</h2>
+        <h2 className="contact__heading"><span>Contact Me</span></h2>
         <div className="contact__option">
           <FaMailBulk className="contact__logo" size={45} />
           <a className="linktosite" href="mailto: raghavanand1869@gmail.com">

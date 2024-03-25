@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  padding-top: 20vh;
+  padding-top: 15vh;
   justify-content: center;
   height: 90vh;
   background: linear-gradient(
@@ -10,7 +10,7 @@
     rgba(49, 54, 59, 1) 100%
   );
   position: relative;
-  color: white;
+  color: rgb(190, 190, 190);
 }
 
 .about__text {
@@ -19,10 +19,22 @@
 }
 
 .about__body {
-  font-family: "Fira Code", monospace;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
   max-width: 50vw;
   padding-right: 50px;
 }
+
+.skills__heading {
+  font-size: 20px;
+  color:white;
+  margin-top: 10px;
+}
+
+.skills-column p {
+  word-break: break-word;
+}
+/* You may also need media queries to stack the columns into a single column on smaller screens */
 
 .about__headshot {
   border-radius: 50%;
@@ -31,12 +43,14 @@
 }
 
 .about__specialText {
-  color: var(--purple);
+  /* highlight the special text */
+  color: white;
 }
 
 .about__externLink {
   color: var(--purple);
 }
+
 
 @media only screen and (max-width: 768px) {
   .about {
@@ -69,8 +83,6 @@
   font-size: 50px;
 }
 
-.dot{
-  color: white;
-  display: inline-block;
-
- }
+.skills__heading {
+  font-size: 30px;
+}

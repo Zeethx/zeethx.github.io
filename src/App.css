@@ -16,9 +16,33 @@ body {
   overflow-x: hidden;
 }
 
+
 h2 {
   color: var(--purple);
   font-family: "Oswald", sans-serif;
-  text-decoration: underline;
   font-size: 60px;
 }
+
+h2 span{
+  display: inline-block; /* Makes the container as wide as the content */
+  position: relative; /* Establishes a positioning context for pseudo-elements */
+}
+
+/* h2 span:last-child{
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+} */
+
+h2 span::after {
+  content: '';
+  display: block;
+  width: 80%; /* Adjusts the width of the underline */
+  height: 1px; /* Thickness of the underline */
+  background: rgb(193, 119, 0);
+  position: absolute;
+  bottom: 3px; /* Adjusts the space between the text and the underline */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the underline */
+}
+

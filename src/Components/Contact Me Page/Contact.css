@@ -17,9 +17,9 @@
   padding-left: 10vw;
 }
 
-
 .contact__option {
   display: flex;
+  margin-top: 10px;
   font-family: "Roboto", sans-serif;
   align-items: center;
   padding-bottom: 15px;
