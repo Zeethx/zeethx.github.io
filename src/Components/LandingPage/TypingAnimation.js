@@ -8,11 +8,11 @@ const TypingAnimation = () => {
     const typed = new Typed(element.current, {
       strings: [
         "Software Engineer",
-        "Freelancer",
-        "Graphic Designer",
-        "Photographer",
+        "Web Developer",
+        "AI Enthusiast",
+        "eSports Athlete",
       ],
-      typeSpeed: 35,
+      typeSpeed: 34,
       backSpeed: 25,
       backDelay: 500,
       smartBackspace: true,

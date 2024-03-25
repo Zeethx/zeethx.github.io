@@ -2,14 +2,16 @@ import PurpleArrows from "../LandingPage/PurpleArrows";
 import DarkWave from "../Waves/DarkWave";
 import "./Landing.css";
 import LeftSocialMediaIcons from "./LeftSocialMediaIcons";
+import TypingAnimation from "./TypingAnimation";
 
 function Landing() {
   return (
     <section id="landing" className="landing">
       <div className="landing__topText">
-        <span className="landing__purpleText">Hello 👋, I am</span>
-        <h1 className="landing__mainText">Raghav Anand.</h1>
-        <h1 className="landing__mainText">I like to code.</h1>
+        <h1 className="landing__mainText landing__name">Raghav Anand</h1>
+        <div className="typing__animation">
+          <TypingAnimation />
+        </div>
       </div>
 
       <hr className="landing__hr" />
@@ -18,7 +20,6 @@ function Landing() {
         <h1 className="landing__mainText">Computer Science</h1>
         <h1 className="landing__mainText">Graduate</h1>
       </div>
-
       <PurpleArrows />
 
       <LeftSocialMediaIcons />

@@ -6,7 +6,7 @@ function PurpleArrows() {
     <NavHashLink
       className="purpleArrows"
       to="/#about"
-      scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "end" })}
+      scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "start" })}
     >
       <img
         className="purpleArrows"
