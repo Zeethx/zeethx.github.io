@@ -21,6 +21,7 @@
 .project__right {
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
   margin-left: 50px;
   text-align: right;
   padding-bottom: 5vh;
@@ -107,7 +108,7 @@
   }
 
   .project__description {
-    max-width: 60vw;
+    max-width: 70vw;
     text-align: center;
   }
 
@@ -122,10 +123,6 @@
   .project__image {
     margin-bottom: 15px;
     width: 80%;
-  }
-
-  .project__specialMobileImage {
-    width: 20%;
   }
 
   .project__sourceCode:hover {

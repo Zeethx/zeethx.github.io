@@ -8,10 +8,10 @@ function Project3() {
       <div className="project__main">
         <img
           className="project__image"
-          src="/images/flavour_flow_image_large.png"
-          srcset="/images/flavour_flow_image_large.png 750w, /images/flavour_flow_image_large.png 1468w"
+          src="/images/discord_smartbot.png"
+          srcset="/images/discord_smartbot.png 750w, /images/discord_smartbot.png 1468w"
           sizes="50vw"
-          alt="Flavout Flow Landing Page"
+          alt="Discord Smartbot Project"
           width="50%"
           height="auto"
           loading="lazy"

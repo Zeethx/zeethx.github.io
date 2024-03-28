@@ -36,6 +36,13 @@
   color: var(--dark-gray);
   font-weight: bold;
 }
+.typed-cursor {
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  font-size: 30px;
+  line-height: normal;
+}
+
 
 .landing__hr {
   width: 35vw;

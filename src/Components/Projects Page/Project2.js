@@ -26,7 +26,7 @@ function Project2() {
             href="https://github.com/Zeethx/Directory-Encryption"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="=Website GitHub Repository"
+            aria-label="=Website GitHub Repository"srcset="/images/directory_encryption.png 750w, /images/directory_encryption.png 1468w"
           >
             <FaGithub className="project__githubLogo" size={25} />
             <h3 className="project__sourceCodeText">Source Code</h3>
@@ -34,10 +34,10 @@ function Project2() {
         </div>
         <img
           className="project__image project__imageDark"
-          src="/images/covid_bot_project_image_large.jpg"
-          srcset="/images/covid_bot_project_image_small.jpg 750w, /images/covid_bot_project_image_large.jpg 1468w"
+          src="/images/directory_encryption.png"
+          
           sizes="50vw"
-          alt="Covid Bot Project Commands"
+          alt="Directory Encryption Project"
           width="50%"
           height="auto"
           loading="lazy"

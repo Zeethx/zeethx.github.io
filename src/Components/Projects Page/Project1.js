@@ -14,32 +14,13 @@ function Project1({ id }) {
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
-          src="/images/health_fusion_home.png"
-          alt="Health Fusion Project Home Page"
-          width="15%"
+          src="/images/news_summarizer.png"
+          srcset="/images/news_summarizer.png 750w, /images/news_summarizer.png 1468w"
+          alt="News Summarizer Project"
+          width="50%"
           height="auto"
           loading="lazy"
         />
-        {isDesktopOrLaptop && (
-          <>
-            <img
-              className="project__image"
-              src="/images/health_fusion_add.png"
-              alt="Health Fusion Map Page"
-              width="15%"
-              height="auto"
-              loading="lazy"
-            />
-            <img
-              className="project__image"
-              src="/images/health_fusion_map.png"
-              alt="Health Fusion Project Add Page"
-              width="15%"
-              height="auto"
-              loading="lazy"
-            />
-          </>
-        )}
 
         <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">News Summarizer</h3>

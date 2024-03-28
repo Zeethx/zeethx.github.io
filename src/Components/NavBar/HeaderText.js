@@ -12,7 +12,7 @@ function HeaderText({ clicked, setClicked }) {
           }
         }}
       >
-        <h1 className="header_text__title">Raghav<span className="dot_header">.</span></h1>
+        <h1 className="header_text__title">Raghav<span className="dot_header">;</span></h1>
       </HashLink>
     </div>
   );

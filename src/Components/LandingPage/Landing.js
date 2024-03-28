@@ -13,7 +13,6 @@ function Landing() {
           <TypingAnimation />
         </div>
       </div>
-
       <hr className="landing__hr" />
 
       <div className="landing__bottomText">
