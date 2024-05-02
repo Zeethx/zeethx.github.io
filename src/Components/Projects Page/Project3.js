@@ -8,34 +8,30 @@ function Project3() {
       <div className="project__main">
         <img
           className="project__image"
-          src="/images/discord_smartbot.png"
-          srcset="/images/discord_smartbot.png 750w, /images/discord_smartbot.png 1468w"
+          src="/images/news_summarizer.png"
+          srcset="/images/news_summarizer.png 750w, /images/news_summarizer.png 1468w"
           sizes="50vw"
-          alt="Discord Smartbot Project"
+          alt="News Summarizer Project"
           width="50%"
           height="auto"
           loading="lazy"
         />
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">Discord Smartbot</h3>
+          <h3 className="project__title">News Summarizer</h3>
           <p className="project__description project__body">
-          The project is an AI Chatbot developed for the AI Club,
-           designed to create a grocery list through speech 
-           recognition. It employs technologies in natural 
-           language processing, machine learning, and speech 
-           recognition to interpret user commands and generate 
-           the desired output. This project is implemented in 
-           Python and is focused on enhancing the user's 
-           convenience in compiling grocery lists via voice 
-           commands.
+          This project is a News Summarizer that leverages OpenAI's 
+          GPT models to provide concise summaries of news articles 
+          based on user-specified topics. It integrates with the 
+          NewsAPI to fetch relevant articles and uses Streamlit 
+          for an interactive user interface.
           </p>
           <p className="project__tech project__body">
-            &gt; python · Discord API · NLP · TensorFlow
-             · Speech Recognition
+            &gt; Assistants API · Python · Streamlit · OPENAI API ·
+            News API
           </p>
           <a
             className="project__sourceCode"
-            href="https://github.com/Zeethx/NLP-Project"
+            href="https://github.com/Zeethx/News-Summarizer"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"

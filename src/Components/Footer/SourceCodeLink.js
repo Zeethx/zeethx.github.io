@@ -5,7 +5,7 @@ function SourceCodeLink() {
   return (
     <a
       className="sourceCodeLink"
-      href="https://github.com/jackparsonss/zeethx.github.io"
+      href="https://github.com/zeethx/zeethx.github.io"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="=Website GitHub Repository"

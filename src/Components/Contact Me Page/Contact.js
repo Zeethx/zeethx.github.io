@@ -1,4 +1,4 @@
-import LightWave from "../Waves/LightWave";
+import DarkWave from "../Waves/DarkWave";
 import "./Contact.css";
 import { FaLinkedin, FaMailBulk } from "react-icons/fa";
 
@@ -26,7 +26,7 @@ function Contact() {
           </a>
         </div>
       </div>
-      <LightWave />
+      <DarkWave />
     </section>
   );
 }

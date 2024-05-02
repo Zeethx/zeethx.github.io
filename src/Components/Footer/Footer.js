@@ -5,7 +5,7 @@ import SourceCodeLink from "./SourceCodeLink";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer dark">
       <SocialMediaIcons />
       <Logo />
       <p className="footer__copyright">Copyright © 2024 Raghav Anand.</p>

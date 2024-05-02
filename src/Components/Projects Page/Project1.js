@@ -14,22 +14,23 @@ function Project1({ id }) {
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
-          src="/images/news_summarizer.png"
-          srcset="/images/news_summarizer.png 750w, /images/news_summarizer.png 1468w"
-          alt="News Summarizer Project"
+          src="/images/concertbeat.png"
+          srcset="/images/concertbeat.png 750w, /images/concertbeat.png 1468w"
+          alt="ConcertBeat"
           width="50%"
           height="auto"
           loading="lazy"
         />
 
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">News Summarizer</h3>
+          <h3 className="project__title">ConcertBeat</h3>
           <p className="project__description project__body">
-          This project is a News Summarizer that leverages OpenAI's 
-          GPT models to provide concise summaries of news articles 
-          based on user-specified topics. It integrates with the 
-          NewsAPI to fetch relevant articles and uses Streamlit 
-          for an interactive user interface.
+          The project "ConcertBeat" is designed to keep users updated
+          on concerts near them based on their Spotify listening history.
+           It utilizes both the Spotify API and the Ticketmaster API to 
+           deliver these personalized concert notifications. 
+           The application serves as a bridge between users' music 
+           preferences and live events that align with their tastes.
           </p>
           <p className="project__tech project__body">
             &gt; Assistants API · Python · Streamlit · OPENAI API ·

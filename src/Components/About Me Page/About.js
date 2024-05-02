@@ -14,6 +14,7 @@ function About() {
   return (
     <section id="about" className="about">
       <div data-aos="fade-right" className="about__text">
+        <div>
         <h2 className="about__heading"><span>About Me</span></h2>
         <p className="about__body">
           👋 Hello! My name is Raghav Anand and I am a Computer Science Honours - Artificial Intellence Graduate from the{" "}
@@ -30,17 +31,18 @@ function About() {
           <span className="about__specialText">Deep Learning Algorithms</span>, and reseraching about{" "}
           <span className="about__specialText">Music Recommender Systems</span>.
         </p>
-        <br /><br />
-        <h2 className="about__heading"><span>Skills</span></h2>
-        <div className="about__body">
-        <span className="skills__heading">Programming Languages:</span><br/> 
-        <p className="skills__text">Python, GOlang, TypeScript, JavaScript, Bash, C++, SQL</p><br/>
-        <span className="skills__heading">Frameworks:</span><br/> 
-        <p className="skills__text">React, Matplotlib, NumPy, pandas, JQuery, Bootstrap, Django, Flask, Tensorflow</p><br/>
-        <span className="skills__heading">Technologies:</span><br/> 
-        <p className="skills__text">Git, Docker ,Node.js, MySQL, REST API, Linux</p><br/>
-        </div> 
-        <br/><br/><br/>
+        </div>
+        <div>
+          <h2 className="about__heading"><span>Skills</span></h2>
+          <div className="about__body">
+          <span className="skills__heading">Programming Languages:</span><br/> 
+          <p className="skills__text">Python, GOlang, TypeScript, JavaScript, Bash, C++, SQL</p><br/>
+          <span className="skills__heading">Frameworks:</span><br/> 
+          <p className="skills__text">React, Matplotlib, NumPy, pandas, JQuery, Bootstrap, Django, Flask, Tensorflow</p><br/>
+          <span className="skills__heading">Technologies:</span><br/> 
+          <p className="skills__text">Git, Docker ,Node.js, MySQL, REST API, Linux</p><br/>
+          </div> 
+        </div>
       </div>
       <img
         className="about__headshot"
